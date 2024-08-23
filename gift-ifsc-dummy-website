@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIFT IFSC Company Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to GIFT IFSC Registration Portal</h1>
+        <p>Simplifying the process of setting up your business in India's premier financial hub.</p>
+        <a href="#registration" class="cta-button">Get Started</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About GIFT IFSC</h2>
+        <p>GIFT IFSC (Gujarat International Finance Tec-City) is India's first International Financial Services Centre, offering businesses a globally competitive environment for growth and expansion.</p>
+        <ul>
+            <li>Tax Exemptions</li>
+            <li>Access to International Markets</li>
+            <li>Robust Regulatory Framework</li>
+            <li>State-of-the-Art Infrastructure</li>
+        </ul>
+    </section>
+
+    <!-- Registration Process Section -->
+    <section id="registration">
+        <h2>Registration Process</h2>
+        <ol>
+            <li>Pre-Application: Gather all required documents and determine the type of company you want to register.</li>
+            <li>Application Submission: Fill out the online application form and submit all necessary documents.</li>
+            <li>Review and Approval: Your application will be reviewed by the regulatory authority.</li>
+            <li>Final Registration: Upon approval, your company will be registered, and you'll receive a Certificate of Incorporation.</li>
+        </ol>
+        <p><strong>Required Documents:</strong></p>
+        <ul>
+            <li>Memorandum of Association (MoA)</li>
+            <li>Articles of Association (AoA)</li>
+            <li>Identity Proof of Directors</li>
+            <li>Proof of Registered Office Address</li>
+        </ul>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Company Formation</h3>
+            <p>Assistance with all aspects of company formation, from choosing the right business structure to filing necessary documents.</p>
+        </div>
+        <div class="service">
+            <h3>Legal Assistance</h3>
+            <p>Expert legal advice on compliance, contracts, and regulatory requirements.</p>
+        </div>
+        <div class="service">
+            <h3>Tax Advisory</h3>
+            <p>Comprehensive tax planning and advisory services to maximize your business's profitability in GIFT IFSC.</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>What is GIFT IFSC?</h3>
+            <p>GIFT IFSC is India's first International Financial Services Centre, offering a conducive environment for international financial services and transactions.</p>
+        </div>
+        <div class="faq-item">
+            <h3>What types of companies can register in GIFT IFSC?</h3>
+            <p>Companies in sectors like banking, insurance, asset management, and financial services can register in GIFT IFSC.</p>
+        </div>
+        <div class="faq-item">
+            <h3>What are the tax benefits of registering in GIFT IFSC?</h3>
+            <p>Companies registered in GIFT IFSC are eligible for various tax exemptions, including a 100% tax holiday for 10 years out of 15 years.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p>Email: info@giftifsc-registration.com</p>
+        <p>Phone: +91 123 456 7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GIFT IFSC Registration Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Button Styles */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background: #555;
+}
+
+/* Service and FAQ Styles */
+.service, .faq-item {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Form Styles */
+form {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: relative;
+}
